@@ -5,27 +5,32 @@ owner: str(required=True)
 contact: map(required=True)
 contact:
   email: str(required=False, regex='^[\\w\\.-]+@[\\w\\.-]+\\.[a-zA-Z]{2,}$')
-  discord: str(required=False, regex='^@\\w{2,32}#\\d{4}$')
+  discord: str(required=False, regex='^[a-zA-Z0-9._-]{2,32}$')  # Updated regex
   telegram: str(required=False, regex='^@\\w{5,32}$')
-category: list(enum(
-  'Official',        # Massa Official websites (e.g., Explorer, MNS, etc.)
-  'Massa',           # Massa-related websites (e.g., specific explorers, tools, etc.)
-  'DeFi',            # Decentralized Finance platforms (e.g., DEXs, lending protocols)
-  'NFT',             # Non-Fungible Token platforms (e.g., marketplaces, galleries)
-  'GameFi',          # Blockchain-based games and play-to-earn platforms
-  'Governance',      # Governance platforms (e.g., DAOs, voting systems)
-  'Social',          # Social platforms or media (e.g., Twitter/Facebook clones)
-  'Art',             # Platforms for digital art, collectibles, or creative works
-  'Tool',            # General-purpose tools (e.g., wallets, explorers, or utilities)
-  'E-Commerce',      # Platforms for decentralized online shopping
-  'Infrastructure',  # Blockchain infrastructure (e.g., nodes, APIs, oracles)
-  'Education',       # Platforms for blockchain/web3 education
-  'Media',           # News, blogs, and content platforms related to web3
-  'Protocol',        # Blockchain or layer-specific protocols
-  'Aggregator',      # Aggregators (e.g., price tracking, DeFi aggregators)
-  'Marketplace',     # General marketplaces (not specific to NFTs)
-  'Analytics',       # Tools for blockchain data analysis or visualization
-  'Community',       # Community-oriented platforms (forums, chat rooms, etc.)
-  'Identity',        # Platforms for decentralized identity and verification
-  'Other'            # Catch-all for platforms that don't fit into the above
-), required=True, min=1, max=5)
+category: list(
+  enum(
+    'Official',
+    'Massa',
+    'DeFi',
+    'NFT',
+    'GameFi',
+    'Governance',
+    'Social',
+    'Art',
+    'Tool',
+    'E-Commerce',
+    'Infrastructure',
+    'Education',
+    'Media',
+    'Protocol',
+    'Aggregator',
+    'Marketplace',
+    'Analytics',
+    'Community',
+    'Identity',
+    'Other'
+  ),
+  required=True,
+  min=1,
+  max=5
+)
