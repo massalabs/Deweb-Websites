@@ -50,28 +50,30 @@ You must include at least one of the contact options in your website file.
 
 ### Categories
 
-Each website must have at least one category from the list of available categories. Here are the available categories:
+Each website must have at least one category from the list of available categories. Here are the available categories with descriptions:
 
-- Official
-- Massa
-- DeFi
-- NFT
-- GameFi
-- Governance
-- Social
-- Art
-- Tool
-- E-Commerce
-- Infrastructure
-- Education
-- Media
-- Protocol
-- Aggregator
-- Marketplace
-- Analytics
-- Community
-- Identity
-- Other
+| Category       | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| `Official`     | Massa Official websites (e.g., Explorer, MNS, etc.)                         |
+| `Massa`        | Massa related websites (e.g., Massa specific explorers, Massa specific tools, etc.) |
+| `DeFi`         | Decentralized Finance platforms (e.g., DEXs, lending protocols)             |
+| `NFT`          | Non-Fungible Token platforms (e.g., marketplaces, galleries)                |
+| `GameFi`       | Blockchain-based games and play-to-earn platforms                           |
+| `Governance`   | Decentralized Autonomous Organizations                                      |
+| `Social`       | Social platforms or media (e.g., Twitter/Facebook clones)                   |
+| `Art`          | Art-related platforms (e.g., digital art galleries)                         |
+| `Tool`         | General-purpose tools (e.g., wallets, explorers, or utilities)              |
+| `E-Commerce`   | Platforms for decentralized online shopping                                 |
+| `Infrastructure`| Blockchain infrastructure (e.g., nodes, APIs, oracles)                     |
+| `Education`    | Platforms for blockchain/web3 education                                     |
+| `Media`        | News, blogs, and content platforms related to web3                          |
+| `Protocol`     | Blockchain or layer-specific protocols                                      |
+| `Aggregator`   | Aggregators (e.g., price tracking, DeFi aggregators)                        |
+| `Marketplace`  | General marketplaces (not specific to NFTs)                                 |
+| `Analytics`    | Tools for blockchain data analysis or visualization                         |
+| `Community`    | Community-oriented platforms (forums, chat rooms, etc.)                     |
+| `Identity`     | Platforms for decentralized identity and verification                       |
+| `Other`        | Catch-all for platforms that don't fit into the above                       |
 
 Make sure to include at least one of these categories in your website file.
 
