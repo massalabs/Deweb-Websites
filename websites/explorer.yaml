@@ -1,0 +1,9 @@
+title: "Massa Explorer"
+mns: "explorer.massa"
+desc: "Official Massa blockchain explorer."
+owner: "Massa Team"
+contact:
+  email: "support@massa.net"
+category:
+  - "Official"
+  - "Infrastructure"

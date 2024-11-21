@@ -1,0 +1,13 @@
+title: str(required=True)
+mns: str(required=True, regex='^(?!-)[a-z0-9-]{2,100}\\.massa$')
+desc: str(required=True)
+owner: str(required=True)
+contact: map(required=True)
+contact:
+  email: str(required=False, regex='^[\\w\\.-]+@[\\w\\.-]+\\.[a-zA-Z]{2,}$')
+  discord: str(required=False, regex='^[a-zA-Z0-9._-]{2,32}$')  # Updated regex
+  telegram: str(required=False, regex='^@\\w{5,32}$')
+category: list(enum('Official', 'Massa', 'DeFi', 'NFT', 'GameFi', 'Governance',
+                    'Social', 'Art', 'Tool', 'E-Commerce', 'Infrastructure',
+                    'Education', 'Media', 'Protocol', 'Aggregator', 'Marketplace',
+                    'Analytics', 'Community', 'Identity', 'Other'), required=True, min=1, max=5)
