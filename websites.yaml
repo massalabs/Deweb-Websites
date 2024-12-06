@@ -1,3 +1,25 @@
+- title: "Massa Bridge"
+  mns: "bridge.massa"
+  desc: "Official Massa Bridge"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Official"
+    - "Massa"
+    - "Tool"
+    - "DeFi"
+- title: "Massa Doc"
+  mns: "docs.massa"
+  desc: "Official Massa documentation"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Official"
+    - "Massa"
+    - "Infrastructure"
+    - "Education"
 - title: "Massa Explorer"
   mns: "explorer.massa"
   desc: "Official Massa blockchain explorer."
@@ -7,3 +29,55 @@
   category:
     - "Official"
     - "Infrastructure"
+    - "Massa"
+- title: "Kima Showcase"
+  mns: "kima.massa"
+  desc: "The first fully autonomous Arbitrum dapp ever created"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Massa"
+    - "Infrastructure"
+    - "Protocol"
+- title: "Liquity"
+  mns: "liquity.massa"
+  desc: "A Decentralized Liquity frontend"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Protocol"
+    - "DeFi"
+    - "Tool"
+- title: "Massa Name Service"
+  mns: "mns.massa"
+  desc: "A Decentralized Naming Service which allows users and smart contracts to be recognized on the Massa blockchain"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Official"
+    - "Infrastructure"
+    - "Massa"
+- title: "Syntra"
+  mns: "syntra.massa"
+  desc: "A dApp that uses Massa's Autonomous Smart Contracts to stream money from a wallet to another"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Official"
+    - "Massa"
+    - "Tool"
+    - "Community"
+- title: "Massa Coin Vester"
+  mns: "vesting.massa"
+  desc: "A tool to retrieve your vested MAS tokens securely"
+  owner: "Massa Team"
+  contact:
+    email: "support@massa.net"
+  category:
+    - "Official"
+    - "Massa"
+    - "Tool"
