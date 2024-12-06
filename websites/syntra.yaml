@@ -1,0 +1,11 @@
+title: "Syntra"
+mns: "syntra.massa"
+desc: "A dApp that uses Massa's Autonomous Smart Contracts to stream money from a wallet to another"
+owner: "Massa Team"
+contact:
+  email: "support@massa.net"
+category:
+  - "Official"
+  - "Massa"
+  - "Tool"
+  - "Community"
