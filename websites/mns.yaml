@@ -1,0 +1,10 @@
+title: "Massa Name Service"
+mns: "mns.massa"
+desc: "A Decentralized Naming Service which allows users and smart contracts to be recognized on the Massa blockchain"
+owner: "Massa Team"
+contact:
+  email: "support@massa.net"
+category:
+  - "Official"
+  - "Infrastructure"
+  - "Massa"

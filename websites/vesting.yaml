@@ -1,0 +1,10 @@
+title: "Massa Coin Vester"
+mns: "vesting.massa"
+desc: "A tool to retrieve your vested MAS tokens securely"
+owner: "Massa Team"
+contact:
+  email: "support@massa.net"
+category:
+  - "Official"
+  - "Massa"
+  - "Tool"
