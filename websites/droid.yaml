@@ -1,0 +1,12 @@
+title: "Massa on Droid"
+mns: "droid.massa"
+desc: "An easy installer to run massa tools on a smartphone."
+owner: "Thybault Alabarbe"
+contact:
+  email: "thybault.alabarbe@gmail.com"
+  discord: "curiosithy"
+  telegram: "@curiosi_thy"
+category:
+  - "Massa"
+  - "Tool"
+  - "Infrastructure"
