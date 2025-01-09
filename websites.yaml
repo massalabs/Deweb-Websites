@@ -72,6 +72,17 @@
     - "Official"
     - "Infrastructure"
     - "Massa"
+- title: "MW0rld"
+  mns: "mw0rld.massa"
+  desc: "TextGame \U0001F5FA️ on the Massa blockchain ⛓️"
+  owner: "MW0rld Team"
+  contact:
+    email: "mw0rld.robot@gmail.com"
+    telegram: "@MW0rldGroup"
+  category:
+    - "NFT"
+    - "GameFi"
+    - "Community"
 - title: "Syntra"
   mns: "syntra.massa"
   desc: "A dApp that uses Massa's Autonomous Smart Contracts to stream money from a wallet to another"
