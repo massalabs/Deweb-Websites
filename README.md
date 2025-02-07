@@ -1,3 +1,6 @@
+**⚠️ WARNING: This repository is deprecated. Websites uploaded using the [DeWeb CLI](../cli/overview) or the [Decentralized Web Services platform](https://dws.massa.network) are automatically registered in the DeWeb Website Index Smart Contract. Please refer to the [Massa DeWeb Documentation](https://docs.massa.net/docs/deweb/getting-started/registries#register-your-website) for more information.**
+
+
 # Deweb Websites
 
 This GitHub repository is a collection of DeWeb websites that can be used by people and tools to help users access websites stored on the Massa Blockchain. For more information about DeWeb, please visit the [Massa DeWeb Documentation](https://docs.massa.net/docs/deweb/home).
