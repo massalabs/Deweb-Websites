@@ -1,0 +1,13 @@
+title: "Gossip"
+mns: "gossip.massa"
+desc: "A Decentralized Uncensorable Chat Application."
+owner: "Massa Team"
+contact:
+  email: "support@massa.net"
+category:
+  - "Official"
+  - "Infrastructure"
+  - "Protocol"
+  - "Community"
+  - "Massa"
+  - "Social"
